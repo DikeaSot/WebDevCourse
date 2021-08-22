@@ -1,0 +1,200 @@
+            body {
+                background-color: #DBDECA;
+                font-family: "Comic Sans MS", cursive, sans-serif;
+                font-size: 14px;
+                padding-bottom: 100px;
+            }
+            
+            #navigation {
+                position: absolute;
+                top: 120px;
+                left: 0px;
+                word-wrap: normal;
+                width: 200px;
+                text-align: center;
+            }
+            
+            #navigation ul {
+                margin: 5px 5px 10px 5px;
+                padding: 5px;
+                list-style: none;
+            }
+            
+            #navigation ul a:hover {
+                text-decoration: none;
+                font-size: 16px;
+                display: block;
+                border-left: 3px solid #6E6F65;
+                border-bottom: 1px solid #BABABA;
+                padding: 0 0 1px;
+                margin: 0 1px 2px 1px;
+            }
+            
+            h1 {
+                text-align: center;
+                color: #43AB85;
+            }
+            
+            hr {
+                border: 5px outset #ACFAC4;
+            }
+            
+            h2 {
+                font-family: "Apple Chancery", cursive;
+                color: #577394;
+                font-style: oblique;
+            }
+            
+            h2::first-letter {
+                font-size: 200%;
+                color: #6282A7;
+                font-family: "Brush Script MT", "Brush Script Std", cursive;
+            }
+            
+            p {
+                font-family: "Comic Sans MS", cursive, sans-serif;
+                font-size: 14px;
+            }
+            
+            p.welcome {
+                font-size: 16px;
+                text-align: center;
+                text-decoration: underline black solid;
+            }
+            
+            #content img:not(.gif) {
+                box-shadow: 10px 10px 15px #74AC8B;
+                border-radius: 50%;
+                padding: 5px;
+            }
+            
+            #content .islands ul {
+                list-style-type: none;
+                width: 300px;
+            }
+            
+            #content .islands h4 {
+                font-family: "Brush Script MT", "Brush Script Std", cursive;
+                font-size: 180%;
+                line-height: 0px;
+                position: relative;
+                top: -30px;
+            }
+            
+            #content .islands li img {
+                float: left;
+                margin-right: 15px;
+            }
+            
+            #content .islands li p {
+                width: 90%;
+                position: relative;
+                top: -40px;
+            }
+            
+            #content .islands li {
+                padding: 10px;
+                overflow: auto;
+            }
+            
+            #content .islands li:hover {
+                background: #BABABA;
+                cursor: pointer;
+            }
+            
+            table,
+            th,
+            td {
+                border: 2px solid black;
+            }
+            
+            table {
+                border-collapse: collapse;
+                width: 80%;
+            }
+            
+            tr:nth-child(odd) {
+                background-color: #C8CAB8;
+            }
+            
+            td {
+                width: 200px;
+                text-align: center;
+            }
+            
+            th {
+                height: 40px;
+                background-color: #B3D1BF;
+            }
+            
+            caption {
+                color: green;
+                font-size: 18px;
+            }
+            
+            #content a:visited,
+            #content a:link {
+                color: #2B6D55;
+                font-weight: bold;
+            }
+            
+            #content a:link {
+                color: #78A292;
+            }
+            
+            #content a:hover,
+            #content a:active {
+                color: #007400;
+            }
+            
+            #content {
+                position: absolute;
+                left: 200px;
+                border: solid;
+                padding: 1px 20px 1px 20px;
+            }
+            
+            #info {
+                float: right;
+                width: 220px;
+                margin: 0 0 0 20px;
+                padding: 0;
+            }
+            
+            #contact input[type="text"],
+            [type="email"] {
+                width: 200px;
+                padding: 5px 15px;
+                margin: 5px;
+                box-sizing: border-box;
+            }
+            
+            li a {
+                text-decoration: solid;
+                color: #000000;
+                display: block;
+                width: 100%;
+                border-bottom: 1px solid #ccc;
+            }
+            
+            li a:hover {
+                background: #C8CAB8;
+            }
+            
+            footer {
+                clear: both;
+                position: fixed;
+                padding: 0;
+                bottom: -12px;
+                left: 0;
+                right: 0;
+            }
+            
+            footer p {
+                font: 12px courier;
+                text-align: center;
+                border-top: 2px solid #690000;
+                background: #257E49;
+                color: #690000;
+                padding: 5px;
+            }

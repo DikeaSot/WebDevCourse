@@ -1,0 +1,88 @@
+@font-face {
+    font-family: fontName;
+    src: url(Crestone-w1oDz.ttf);
+}
+
+body {
+    background-color: #DBDECA;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 14px;
+    padding-bottom: 100px;
+}
+
+#navigation {
+    position: absolute;
+    top: 120px;
+    left: 0px;
+    word-wrap: normal;
+    width: 200px;
+    text-align: center;
+}
+
+#navigation ul {
+    margin: 5px 5px 10px 5px;
+    padding: 5px;
+    list-style: none;
+}
+
+#navigation ul a:hover {
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+    border-left: 3px solid #6E6F65;
+    border-bottom: 1px solid #BABABA;
+    padding: 0 0 1px;
+    margin: 0 1px 2px 1px;
+}
+
+li a {
+    text-decoration: solid;
+    color: #000000;
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+}
+
+li a:hover {
+    background: #C8CAB8;
+}
+
+h1 {
+    font-family: fontName;
+    text-align: center;
+    color: #43AB85;
+}
+
+hr {
+    border: 5px outset #ACFAC4;
+}
+
+p {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 14px;
+}
+
+.intro {
+    font-size: 16px;
+    text-align: center;
+    text-decoration: underline black solid;
+    margin-top: 100px
+}
+
+footer {
+    clear: both;
+    position: fixed;
+    padding: 0;
+    bottom: -12px;
+    left: 0;
+    right: 0;
+}
+
+footer p {
+    font: 12px courier;
+    text-align: center;
+    border-top: 2px solid #690000;
+    background: #257E49;
+    color: #690000;
+    padding: 5px;
+}

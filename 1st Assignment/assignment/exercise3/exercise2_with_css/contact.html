@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <title> Contact Form - Exercise2 - HTML </title>
+</head>
+
+<body>
+    <header>
+        <h1>Contact Form</h1>
+    </header>
+    <hr>
+    <main>
+        <div id="content">
+            <img class="gif" src="images/contact.png" width="600" height="150" alt="Communication">
+            <div id="info">
+                <h2>Peronal Details:</h2>
+                <dl>
+                    <dt><u>Name:</u></dt>
+                    <dd>Dikea Sotiropoulou</dd>
+                    <dt><u>Age:</u></dt>
+                    <dd>22 years old</dd>
+                    <dt><u>University:</u></dt>
+                    <dd><dfn title="Athens University of Economics and Business"><a href="https://www.aueb.gr/" target="_blank">AUEB</a></dfn></dd>
+                    <dd><dfn title="Univiversity of Vienna"><a href="https://www.univie.ac.at/" target="_blank">UniWien</a></dfn></dd>
+                    <dt><u>Languages:</u></dt>
+                    <dd>Greek</dd>
+                    <dd>English</dd>
+                    <dd>German</dd>
+                    <dt><u>Social Media:</u></dt>
+                    <dd><img class="gif" src="images/fb.png" width="10" height="10" alt="Facebook"><a href="https://www.facebook.com/" target="_blank">   Facebook</a></dd>
+                    <dd><img class="gif" src="images/instagram.jpg" width="10" height="10" alt="Instagram"><a href="https://www.instagram.com/" target="_blank">  Instagram</a></dd>
+                </dl>
+            </div>
+
+            <div id="contact">
+                <p>Please fill the contact form below so we can communicate via email:</p>
+
+                <form action="files/data.php" method="post" target="_blank">
+                    <label for="fname">First Name:</label>
+                    <input type="text" id="fname" name="fname" placeholder="Michael">
+                    <br>
+
+                    <label for="lname">Last Name:</label>
+                    <input type="text" id="lname" name="lname" placeholder="Jackson">
+                    <br>
+
+                    <label for="gender">Gender:</label>
+                    <select id="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                </select>
+                    <br>
+
+                    <label for="bday">Date of Birth:</label>
+                    <input type="date" id="bday" name="bday">
+                    <br>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="info@something.com">
+                    <br>
+
+                    <label for="comments">Please write something about yourself:</label>
+                    <br>
+                    <textarea id="comments" rows="5" cols="50" placeholder="I really like programming..."></textarea>
+                    <br>
+
+                    <input type="checkbox" id="gdpr" name="gdpr">
+                    <label for="gdpr">I have read and I agree with <a href="files/terms.pdf" target="_blank">Terms and Conditions</a> and <a href="files/privacy.pdf" target="_blank">Privacy Policy</a></label>
+                    <br>
+
+                    <button type="submit" onclick="alert('Successful Submission!')">Submit</button>
+
+
+                </form>
+            </div>
+        </div>
+        <br>
+        <br>
+
+        <div id="navigation">
+            <ul>
+                <li><a href="../exercise1_with_css/index.html">Homepage</a></li>
+                <li><a href="index.html">Exercise 3</a></li>
+            </ul>
+            <ul>
+                <li><a href="aboutme.html">About Me</a></li>
+                <li><a href="interests.html">Interests and Hobbies</a></li>
+                <li><a href="contact.html">Contact Form</a></li>
+            </ul>
+        </div>
+    </main>
+
+    <footer>
+        <p>Technologies and Programming of Web Applications Project 2020</p>
+    </footer>
+
+</body>
+
+</html>
